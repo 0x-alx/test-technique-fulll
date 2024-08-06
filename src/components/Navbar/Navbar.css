@@ -1,5 +1,15 @@
 .navbar {
+    padding: 0 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
     background-color: #1d1d1d;
     height: 64px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: #fff;
+    font-weight: 600;
 }

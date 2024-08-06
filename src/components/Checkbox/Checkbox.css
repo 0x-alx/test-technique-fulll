@@ -1,0 +1,8 @@
+.checkbox {
+    &:hover {
+        cursor: pointer;
+    }
+    &:checked {
+        background-color: #1d1d1d;
+    }
+}

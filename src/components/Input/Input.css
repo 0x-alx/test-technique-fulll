@@ -1,0 +1,19 @@
+.input {
+    min-width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    &:focus {
+        border: none;
+        outline: 2px solid #1d1d1d;
+    }
+}
+
+@media (max-width: 768px) {
+    .input {
+        min-width: 100%;
+    }
+}
