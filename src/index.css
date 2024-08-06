@@ -5,8 +5,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+  height: 100%;
+  padding: 0 80px 24px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+@media (max-width: 768px) {
+  body {
+    padding: 0 16px 24px;
+  }
 }
